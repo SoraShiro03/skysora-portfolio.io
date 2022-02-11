@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+}
+
+.copyright {
+    background-color: #4b6584;
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+
+@media (max-width:1500px) and (min-width:866px) {
+    .btn-links {
+        display: none;
+    }
+
+    .page-container {
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 120%;
+        padding: 1%;
+        color: aqua;
+
+    }
+
+    .links {
+        display: flex;
+        list-style: none;
+
+    }
+
+    .link {
+        padding: 0% 4% 0% 4%;
+        font-size: 140%;
+    }
+
+    .link a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding: 5%;
+        height: 94vh;
+        font-size: 140%;
+        background-image: url(/codingImg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+    }
+
+    .first-section {
+        height: 100vh;
+        background-image: url(/codingImg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .second h1 {
+        text-align: center;
+
+        color: rgb(144, 192, 176);
+        text-decoration: underline;
+        padding: 1%;
+
+
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 5%;
+    }
+
+    .myprofile-image {
+        flex: 1;
+        padding: 4%;
+        align-items: center;
+    }
+
+    .myprofile-image img {
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 50%;
+        width: 80%;
+        height: 80%;
+    }
+
+    .aboutMe {
+        font-size: 140%;
+        flex: 1.5;
+        padding-right: 3%;
+
+    }
+
+    .aboutMe p {
+        /* word-wrap: break-word; */
+        text-align: center;
+        color: #485460;
+    }
+
+    .profile-links {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 2rem;
+        margin-top: 2%;
+        max-width: 100%;
+
+
+    }
+
+    .profile-link img {
+        width: 25px;
+        height: auto;
+    }
+
+
+    .skill {
+        margin-top: 5%;
+        height: 100%;
+
+    }
+
+    .card-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .card {
+
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        font-size: 140%;
+        border-radius: 12.5px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    .card img {
+        width: 50%;
+        height: auto;
+    }
+
+    .card p {}
+
+    .second {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    /* need to fix responsive for skill */
+
+    .third {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #f1f2f6;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .third .title {
+        text-align: center;
+        padding: 1%;
+        border: none;
+        border-bottom: 2px solid #485460;
+        width: 15%;
+        height: 5%;
+        margin-bottom: 3%;
+    }
+
+    .project-gird {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+        align-items: stretch;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .project-link {
+
+        text-align: center;
+        background-image: url(/miko.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+
+    .project-link:hover {
+
+        transform: scale(1.1);
+        transition: transform 0.4s ease;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    .project-link h1 {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .project-link:first-child {
+        grid-row: span 2;
+        grid-column: span 2;
+        color: red;
+    }
+
+    .project-link:last-child {
+        grid-row: span 1 /2;
+        grid-column: span 2;
+    }
+
+    .copyright {
+        background-color: #4b6584;
+        width: 100%;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+    }
+
+}
+
+@media (max-width:866px) {
+    .links {
+        display: none;
+        height: 0%;
+        text-decoration: none;
+    }
+
+    .active {
+        background-color: rgb(124, 209, 209);
+
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: center;
+        list-style: none;
+        font-size: 140%;
+        gap: 2rem;
+        transition: height 0.5s ease;
+    }
+
+    .link:hover {
+        background-color: white;
+        transition: 0.5s;
+
+        text-align: center;
+
+
+    }
+
+    .btn-links {
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 25%;
+        border: none;
+        background-color: #4b6584;
+        color: white;
+        border-radius: 19.5px;
+        font-size: 140%;
+
+    }
+
+    .first-section {
+        background-image: url(/codingImg.jpg);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #4b6584;
+        width: 100%;
+
+    }
+
+    .page-container h1 {
+        font-size: 200%;
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        top: 20%;
+        color: white;
+
+
+    }
+
+    .welcome {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        padding: 2%;
+        height: 100%;
+        font-size: 120%;
+        margin-top: 5%;
+        color: black;
+    }
+
+
+    /* second section */
+    .second h1 {
+        text-align: center;
+        color: #82ccdd;
+        text-decoration: underline;
+        padding: 1%;
+
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about-container p {
+        padding: 5%;
+
+    }
+
+    .myprofile-image {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .myprofile-image img {
+        border-radius: 50%;
+        width: 40%;
+        height: 40%;
+    }
+
+    .aboutMe {
+        font-size: 140%;
+
+    }
+
+    .aboutMe p {
+        /* word-wrap: break-word; */
+        text-align: center;
+    }
+
+    .profile-links {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 2rem;
+        margin-top: 2%;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .profile-link img {
+        width: 25px;
+        height: auto;
+    }
+
+
+    .skill {
+        margin-top: 5%;
+        height: 100%;
+
+    }
+
+    .card-group {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .card {
+
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        font-size: 140%;
+        border-radius: 12.5px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    .card img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .card p {}
+
+    .second {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    }
+
+
+    /* third section */
+
+    .third {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .third h1 {
+        color: #82ccdd;
+
+    }
+
+    .third .title {
+        text-align: center;
+        padding: 1%;
+
+        border-bottom: 2px solid #485460;
+        width: 25%;
+        height: 5%;
+        margin-bottom: 3%;
+    }
+
+    .project-gird {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 0.5rem;
+        align-items: stretch;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .project-link {
+        text-decoration: none;
+        text-align: center;
+        background-image: url(images/miko.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+
+    .project-link:hover {
+
+        transform: scale(1.1);
+        transition: transform 0.4s ease;
+    }
+
+    .project-link h1 {
+
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .project-link:first-child {
+        grid-row: span 2;
+
+    }
+
+    .project-link:last-child {
+        grid-column: span 2;
+    }
+
+
+
+}
