@@ -55,7 +55,7 @@
         padding: 5%;
         height: 94vh;
         font-size: 140%;
-        background-image: url(/codingImg.jpg);
+        background-image: url(images/codingImg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         color: white;
@@ -63,7 +63,7 @@
 
     .first-section {
         height: 100vh;
-        background-image: url(/codingImg.jpg);
+        background-image: url(images/codingImg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -209,7 +209,7 @@
     .project-link {
 
         text-align: center;
-        background-image: url(/miko.png);
+        background-image: url(images/miko.png);
         background-size: cover;
         background-repeat: no-repeat;
         max-width: 100%;
