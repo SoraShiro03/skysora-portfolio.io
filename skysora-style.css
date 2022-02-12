@@ -300,7 +300,7 @@
     }
 
     .first-section {
-        background-image: url(/codingImg.jpg);
+        background-image: url(images/codingImg.jpg);
         height: 50vh;
         background-repeat: no-repeat;
         background-size: cover;
