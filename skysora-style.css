@@ -138,11 +138,14 @@
     }
 
     .card-group {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
         align-items: center;
         justify-content: center;
         gap: 1rem;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .card {
@@ -158,7 +161,7 @@
     }
 
     .card img {
-        width: 50%;
+        width: 45%;
         height: auto;
     }
 
